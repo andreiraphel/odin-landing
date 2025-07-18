@@ -1,0 +1,205 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, .hero, footer {
+    background-color: #1F2937;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 128px;
+}
+
+.header-left {
+    font-weight: 900;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-right ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-weight: lighter;
+    font-size: 18px;
+    color: e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* --------------HERO-------------- */
+
+.hero {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 128px;
+    gap: 32px;
+}
+
+.hero-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.hero-text .main-text {
+    font-weight: 900;
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ .hero-img {
+    color: white;
+    flex-shrink: 0;
+    height: 300px;
+    width: 500px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* --------------INFO-------------- */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 128px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 16px;
+}
+
+.info-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p {
+    text-align: center;
+    width: 200px;
+}
+
+.card-box {
+    flex-shrink: 0;
+    border: 2px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+/* --------------QUOTE-------------- */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 128px 200px;
+}
+
+.quote p {
+    text-align: start;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote .author {
+    color: #1f2937;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* --------------Sign Up-------------- */
+
+.sign-up {
+    height: 150px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 128px;
+    border-radius: 8px;
+    
+}
+
+.sign-up-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+
+}
+
+.sign-up-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-text .main-text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.sign-up button {
+    border: 2px solid white;
+    width: 128px;
+}
+
+/* --------------Footer-------------- */
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
